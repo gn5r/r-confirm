@@ -1,0 +1,64 @@
+{
+  "name": "@gn5r/r-confirm",
+  "version": "0.0.1",
+  "main": "dist/r-confirm-es.js",
+  "module": "dist/r-confirm-umd.js",
+  "license": "MIT",
+  "description": "",
+  "author": {
+    "name": "shangyuan.tuolang",
+    "email": "shangyuna.tuolang@gmail.com"
+  },
+  "homepage": "https://gn5r.github.io/r-confirm",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gn5r/r-confirm.git"
+  },
+  "types": "types/index.d.ts",
+  "files": [
+    "src",
+    "dist",
+    "types"
+  ],
+  "scripts": {
+    "dev": "",
+    "build": "",
+    "build:docs": "",
+    "lint": "",
+    "lint:fix": "",
+    "test": "",
+    "test:watch": ""
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "sass": "^1.57.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.3.0",
+    "@commitlint/config-conventional": "^17.3.0",
+    "@types/jest": "^29.2.4",
+    "@types/node": "^18.11.17",
+    "@types/react": "^18.0.26",
+    "@types/react-dom": "^18.0.9",
+    "@typescript-eslint/eslint-plugin": "^5.46.1",
+    "@typescript-eslint/parser": "^5.46.1",
+    "cross-env": "^7.0.3",
+    "eslint": "^8.30.0",
+    "eslint-plugin-react": "^7.31.11",
+    "husky": "^8.0.2",
+    "prettier": "^2.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "sass": "^1.57.0",
+    "typescript": "^4.9.4"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  }
+}
