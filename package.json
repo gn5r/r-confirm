@@ -24,7 +24,7 @@
     "dev": "",
     "build": "",
     "build:docs": "",
-    "lint": "",
+    "lint": "eslint --ext .js,.ts,.tsx src",
     "lint:fix": "",
     "test": "",
     "test:watch": ""
